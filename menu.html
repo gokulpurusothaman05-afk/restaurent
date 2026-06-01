@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stackly Restaurant</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+  <main>
+    <section class="page-hero section" id="section-hero"><div class="container reveal"><nav class="breadcrumb"><a href="index.html">Home</a> / <span>Menu</span></nav><h1 class="section-title">Our <span class="text-gradient">Menu</span></h1><p class="section-desc" style="margin:0 auto">Seasonal dishes crafted with the finest ingredients.</p></div></section>
+    <section class="section" id="section-filter"><div class="container"><div class="menu-filter reveal"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="starters">Starters</button><button class="filter-btn" data-filter="mains">Mains</button><button class="filter-btn" data-filter="desserts">Desserts</button><button class="filter-btn" data-filter="drinks">Drinks</button></div></div></section>
+    <section class="section alt-bg" id="section-items"><div class="container"><div class="grid-3" id="menu-grid">
+      <article class="card dish-card menu-item" data-category="starters"><div class="dish-img"><img src="images/caesar.webp" alt="Caesar Salad"></div><h3>Caesar Salad</h3><p style="color:var(--muted);font-size:0.85rem">Romaine, parmesan, house dressing</p><span class="price">₹1,162</span></article>
+      <article class="card dish-card menu-item" data-category="starters"><div class="dish-img"><img src="images/garlic shrimp.webp" alt="Garlic Shrimp"></div><h3>Garlic Shrimp</h3><p style="color:var(--muted);font-size:0.85rem">Pan-seared, lemon butter</p><span class="price">₹1,494</span></article>
+      <article class="card dish-card menu-item" data-category="mains"><div class="dish-img"><img src="images/truffle ribey.webp" alt="Truffle Ribeye"></div><h3>Truffle Ribeye</h3><p style="color:var(--muted);font-size:0.85rem">12oz aged beef</p><span class="price">₹3,984</span></article>
+      <article class="card dish-card menu-item" data-category="mains"><div class="dish-img"><img src="images/Lobster linguine_.webp" alt="Lobster Linguine"></div><h3>Lobster Linguine</h3><p style="color:var(--muted);font-size:0.85rem">Saffron cream sauce</p><span class="price">₹3,486</span></article>
+      <article class="card dish-card menu-item" data-category="mains"><div class="dish-img"><img src="images/grilled salmon.webp" alt="Grilled Salmon"></div><h3>Grilled Salmon</h3><p style="color:var(--muted);font-size:0.85rem">Herb crust, asparagus</p><span class="price">₹2,988</span></article>
+      <article class="card dish-card menu-item" data-category="desserts"><div class="dish-img"><img src="images/Chocolate-souffle-SM.webp" alt="Chocolate Soufflé"></div><h3>Chocolate Soufflé</h3><p style="color:var(--muted);font-size:0.85rem">Warm, vanilla ice cream</p><span class="price">₹1,494</span></article>
+      <article class="card dish-card menu-item" data-category="desserts"><div class="dish-img"><img src="images/creme brulee.webp" alt="Crème Brûlée"></div><h3>Crème Brûlée</h3><p style="color:var(--muted);font-size:0.85rem">Madagascar vanilla</p><span class="price">₹1,162</span></article>
+      
+    </div></div></section>
+    <section class="section" id="section-specials"><div class="container reveal"><h2 class="section-title" style="text-align:center;margin-bottom:2rem">Today's Specials</h2><div class="grid-2"><div class="card glow-ring"><h3>Chef's Tasting Menu</h3><p style="color:var(--muted);margin:0.5rem 0">7 courses · ₹7,885 per person</p><a href="contact.html" class="btn btn-primary" style="margin-top:1rem">Reserve</a></div><div class="card glow-ring"><h3>Wine Pairing Night</h3><p style="color:var(--muted);margin:0.5rem 0">Every Friday · ₹5,395 add-on</p><a href="contact.html" class="btn btn-outline" style="margin-top:1rem">Learn More</a></div></div></div></section>
+    <section class="section alt-bg" id="section-dietary"><div class="container reveal" style="text-align:center"><h2 class="section-title">Dietary Options</h2><div class="grid-4 stagger-children" style="margin-top:2rem"><div class="card"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-right:6px"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 11 7 11s7-5.75 7-11c0-3.87-3.13-7-7-7z"/></svg> Vegan</div><div class="card"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-right:6px"><path d="M4 4h16v2H4zM4 9h10v2H4zM4 14h7v2H4z"/></svg> Gluten-Free</div><div class="card"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-right:6px"><path d="M12 2l3 7h7l-5.5 4 2 7L12 17l-6.5 3 2-7L2 9h7z"/></svg> Nut-Free</div><div class="card"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-right:6px"><path d="M6 2h12c1.1 0 2 .9 2 2v16c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2z"/></svg> Dairy-Free</div></div></div></section>
+    <section class="section" id="section-seasonal"><div class="container grid-2 reveal" style="align-items:center"><div><h2 class="section-title">Seasonal Menu</h2><p class="section-desc">Our menu rotates quarterly to feature the freshest seasonal produce.</p></div><div class="hero-plate" style="font-size:4rem;border-radius:var(--radius)"><svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM9 12c0-1.66 1.34-3 3-3s3 1.34 3 3-1.34 3-3 3-3-1.34-3-3z"/></svg></div></div></section>
+    
+    <section class="section" id="section-lunch"><div class="container reveal"><h2 class="section-title">Lunch Menu</h2><p class="section-desc">Available Mon-Fri, 11 AM - 3 PM. Prix fixe from ₹2,324.</p></div></section>
+    <section class="section alt-bg" id="section-brunch"><div class="container reveal" style="text-align:center"><h2 class="section-title">Weekend Brunch</h2><p class="section-desc" style="margin:1rem auto">Sat & Sun, 10 AM - 2 PM. Bottomless mimosas ₹2,075.</p></div></section>
+   
+    <section class="section" id="section-cta"><div class="container reveal"><div class="cta-banner"><h2>Order for Pickup</h2><p style="margin:1rem 0 1.5rem;color:rgba(255,255,255,0.8)">Call ahead or order online.</p><a href="contact.html" class="btn btn-primary">Contact Us</a></div></div></section>
+    <section class="section alt-bg" id="section-faq"><div class="container reveal" style="max-width:720px;margin-inline:auto"><h2 class="section-title" style="text-align:center;margin-bottom:2rem">Menu FAQ</h2><div class="faq-item"><button class="faq-question">Can I customize dishes? <span class="icon">+</span></button><div class="faq-answer"><p>Absolutely. Inform your server of any preferences or allergies.</p></div></div></div></section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
